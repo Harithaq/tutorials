@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.money-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  border-radius: 15px;
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  margin-right: 30px;
+}
+
+.income-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  border-radius: 15px;
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  margin-right: 30px;
+}
+
+.expenses-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 30%;
+  border-radius: 15px;
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  margin-right: 30px;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  margin: 25px;
+}
+
+.details-text {
+  font-family: 'roboto';
+  font-size: 14px;
+  color: #475569;
+}
+
+.details-money {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #475569;
+  font-weight: 500;
+  margin-top: 0;
+}

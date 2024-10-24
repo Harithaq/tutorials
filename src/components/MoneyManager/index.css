@@ -1,0 +1,127 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  width: 80%;
+  border-radius: 12px;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.heading {
+  font-family: 'roboto';
+  font-size: 24px;
+  color: #475569;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.descrip {
+  font-family: 'roboto';
+  font-size: 14px;
+  color: #475569;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.money-descrip {
+  color: #0b69ff;
+}
+
+.transaction-details-container {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 25%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.transaction-heading {
+  font-family: 'roboto';
+  font-size: 18px;
+  color: #475569;
+}
+
+.label-descrip {
+  font-family: 'roboto';
+  font-size: 12px;
+  color: #7e858e;
+  padding-bottom: 4px;
+}
+
+.input-box {
+  width: 70%;
+  padding: 6px;
+  margin-bottom: 16px;
+  outline: none;
+}
+
+.add-button {
+  background-color: #0b69ff;
+  border: none;
+  outline: none;
+  font-family: 'roboto';
+  font-size: 12px;
+  color: #ffffff;
+  border-radius: 4px;
+  width: 60px;
+  padding: 8px;
+  margin-bottom: 20px;
+}
+
+.history-transaction {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  border: 1px solid #cbd5e1;
+  border-radius: 12px;
+  padding-top: 24px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.table-container {
+  height: 100%;
+  border-radius: 8px;
+}
+
+.table-list-container {
+  padding-left: 0;
+  margin: 0;
+}
+
+.table-header {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  margin-right: 15px;
+  padding: 8px;
+  height: 40px;
+}
+
+.table-descrip {
+  font-family: 'roboto';
+  font-size: 16px;
+  color: #1e293b;
+  padding-right: 35px;
+}
